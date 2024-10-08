@@ -9,24 +9,25 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="header">
-      <a href="#home" class="logo">Zeyang <span>Cheng</span></a>
+      <a href="#home" class="logo" data-aos="fade-up">Zeyang <span>Cheng</span></a>
       <i class="bx bx-menu" id="menu-icon"></i>
-      <nav class="navBar">
+      <nav class="navBar" data-aos="fade-down-right">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skill">Skill</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="gradient-btn">Contact Me</button>
+      <button class="gradient-btn" data-aos="fade-down-right">Contact Me</button>
     </header>
 
     <section class="home" id="home">
       <div class="home-content">
-        <h1>Hi, It's<span>Zeyang</span></h1>
+        <h1>Hi, It's<span data-aos="fade-down-right">Zeyang</span></h1>
         <h3>I'm a <span>Web Developer</span></h3>
         <p>
           When I'm not battling rogue semicolons or tracking down the latest CSS bug, I'm busy crafting websites that look good and work even better.
@@ -36,7 +37,7 @@ I specialize in making the web a prettier place—one line of code at a time. I 
 Let’s team up and turn your ideas into a pixel-perfect reality—minus the headaches!
 
         </p>
-        <div class="social-icons">
+        <div class="social-icons" data-aos="fade-down-right">
           <a href="https://github.com/vraycode" target="_blank">
             <i class="bx bxl-github"></i>
           </a>
@@ -58,17 +59,17 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
           <a href="#contact" class="btn">Contact</a>
         </div>
       </div>
-      <div class="home-image">
+      <div class="home-image" data-aos="fade-up">
         <img src="img/image.webp" alt="" />
       </div>
     </section>
 
     <section class="about" id="about">
-      <div class="about-img">
+      <div class="about-img" data-aos="fade-down-right">
         <img src="img/profile.webp" alt="" />
       </div>
 
-      <div class="about-content">
+      <div class="about-content" data-aos="flip-left">
         <h2>About <span>Me</span></h2>
         <p>
           Hey there! I'm Zeyang, your friendly neighborhood web developer—
@@ -89,17 +90,17 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
     </section>
 
     <section class="skill" id="skill">
-      <h2 class="heading">Skill</h2>
-      <div class="skill-container">
-        <div class="skill-box">
+      <h2 class="heading" data-aos="flip-left">Skill</h2>
+      <div class="skill-container" data-aos="zoom-in">
+        <div class="skill-box" >
           <div class="skill-info">
             <i class="bx bxl-typescript"> </i>
             <h4>TypeScript</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              corporis quaerat porro officia deleniti autem, ducimus eveniet
-              aperiam fuga temporibus, in explicabo velit repudiandae unde
-              maxime corrupti eaque impedit blanditiis.
+              TypeScript is like JavaScript but with superpowers! 🚀 
+              <p>It's my go-to language for writing scalable, maintainable, and bug-free code (well, mostly bug-free 😉). </p>
+             
+
             </p>
           </div>
         </div>
@@ -108,10 +109,10 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
             <i class="bx bxl-react"></i>
             <h4>React</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              corporis quaerat porro officia deleniti autem, ducimus eveniet
-              aperiam fuga temporibus, in explicabo velit repudiandae unde
-              maxime corrupti eaque impedit blanditiis.
+              React is my trusty sidekick when it comes to building interactive user interfaces. 
+              Whether it's creating reusable components or managing complex application states, React helps me keep everything modular and neat. 
+              <p>It's like Lego for web development—just more fun! 🧱</p>
+
             </p>
           </div>
         </div>
@@ -121,10 +122,10 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
             <i class="bx bx-code-block"></i>
             <h4>Next.js</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              corporis quaerat porro officia deleniti autem, ducimus eveniet
-              aperiam fuga temporibus, in explicabo velit repudiandae unde
-              maxime corrupti eaque impedit blanditiis.
+              Next.js is the Swiss army knife 🛠️ of my web development toolkit.
+               Need server-side rendering? Static site generation? Fast performance? Next.js has got it all covered.
+              It's my top choice for building lightning-fast, SEO-friendly web apps.
+
             </p>
           </div>
         </div>
@@ -134,10 +135,10 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
             <i class="bx bxl-redux"></i>
             <h4>Redux</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              corporis quaerat porro officia deleniti autem, ducimus eveniet
-              aperiam fuga temporibus, in explicabo velit repudiandae unde
-              maxime corrupti eaque impedit blanditiis.
+              Redux is my state management wizard 🧙. 
+              When my React app starts to feel like a tangled web of state, Redux comes to the rescue. 
+              It helps keep my app's state predictable, centralized, and easy to debug, even as things get complex.
+
             </p>
           </div>
         </div>
@@ -147,10 +148,10 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
             <i class="bx bxl-git"></i>
             <h4>Git</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              corporis quaerat porro officia deleniti autem, ducimus eveniet
-              aperiam fuga temporibus, in explicabo velit repudiandae unde
-              maxime corrupti eaque impedit blanditiis.
+              Git is like a time machine 🕰️ for my code. 
+              With version control, I can go back to the future and fix any bugs I created last week. 
+              It's essential for collaborating on projects, keeping everything organized, and preventing those dreaded "oops" moments.
+
             </p>
           </div>
         </div>
@@ -160,87 +161,67 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
             <i class="bx bxl-docker"></i>
             <h4>Docker</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-              corporis quaerat porro officia deleniti autem, ducimus eveniet
-              aperiam fuga temporibus, in explicabo velit repudiandae unde
-              maxime corrupti eaque impedit blanditiis.
+              Docker is my containerization superhero 🦸. It lets me package up my applications and all their dependencies, making sure they run smoothly no matter where they're deployed—whether it’s my local machine or the cloud.
+
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" data-aos="zoom-in">
       <h2 class="heading">Projects</h2>
       <div class="project-box">
         <div class="project-card">
           <img src="img/moshify.webp" alt="" />
-          <h3>Project 1</h3>
+          <h3>Project <span>1</span> </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, explicabo at. Temporibus eius, expedita atque vero
-            illum dolorem dolor enim nam non, inventore corporis illo, harum
-            numquam! Delectus, eaque deserunt!
+            
           </p>
           <div class="btn"><a href="https://zeyangweisite.netlify.app/" target="_blank">Review Project</a> </div>
           </div>
 
           <div class="project-card">
-            <img src="img/moshify.webp" alt="" />
-            <h3>Project 2</h3>
+            <img src="img/empty.webp" alt="" />
+            <h3>Project <span>2</span></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, explicabo at. Temporibus eius, expedita atque vero
-              illum dolorem dolor enim nam non, inventore corporis illo, harum
-              numquam! Delectus, eaque deserunt!
+              Waiting to go live
             </p>
             <div class="btn">Review Project</div>
             </div>
 
             <div class="project-card">
-              <img src="img/moshify.webp" alt="" />
-              <h3>Project 3</h3>
+              <img src="img/empty.webp" alt="" />
+              <h3>Project <span>3</span></h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae, explicabo at. Temporibus eius, expedita atque vero
-                illum dolorem dolor enim nam non, inventore corporis illo, harum
-                numquam! Delectus, eaque deserunt!
+                Waiting to go live
               </p>
               <div class="btn">Review Project</div>
               </div>
 
               <div class="project-card">
-                <img src="img/moshify.webp" alt="" />
-                <h3>Project 4</h3>
+                <img src="img/empty.webp" alt="" />
+                <h3>Project <span>4</span></h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae, explicabo at. Temporibus eius, expedita atque vero
-                  illum dolorem dolor enim nam non, inventore corporis illo, harum
-                  numquam! Delectus, eaque deserunt!
+                  Waiting to go live
                 </p>
                 <div class="btn">Review Project</div>
                 </div>
 
                 <div class="project-card">
-                  <img src="img/moshify.webp" alt="" />
-                  <h3>Project 5</h3>
+                  <img src="img/empty.webp" alt="" />
+                  <h3>Project <span>5</span></h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repudiandae, explicabo at. Temporibus eius, expedita atque vero
-                    illum dolorem dolor enim nam non, inventore corporis illo, harum
-                    numquam! Delectus, eaque deserunt!
+                    Waiting to go live
                   </p>
                   <div class="btn">Review Project</div>
                   </div>
         
                   <div class="project-card">
-                    <img src="img/moshify.webp" alt="" />
-                    <h3>Project 6</h3>
+                    <img src="img/empty.webp" alt="" />
+                    <h3>Project <span>6</span></h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repudiandae, explicabo at. Temporibus eius, expedita atque vero
-                      illum dolorem dolor enim nam non, inventore corporis illo, harum
-                      numquam! Delectus, eaque deserunt!
+                      Waiting to go live
                     </p>
                     <div class="btn">Review Project</div>
                     </div>
@@ -253,7 +234,8 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
       <h2 class="heading">Contact <span>Me</span></h2>
 
       <form action="https://formspree.io/f/xjkvbpyl" method="POST" name="contact">
-        <div class="input-group">
+        <div class="input-group" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <div class="input-box">
             <input type="text" placeholder="Full Name" name="text">
             <input type="email" placeholder="Email" name="email">
@@ -265,7 +247,8 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
         </div>
 
         <div class="input-group-2">
-          <textarea name="textarea" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+          <textarea name="textarea" id="" placeholder="Your Message" cols="30" rows="10" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"></textarea>
           <input type="submit" value="Send Message" class="btn" name="submit">
         </div>
       </form>
@@ -303,5 +286,9 @@ Let’s team up and turn your ideas into a pixel-perfect reality—minus the hea
       </p>
     </footer>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

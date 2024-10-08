@@ -312,6 +312,8 @@ section {
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
   transition: var(--transition);
+  
+
 }
 .project-card:hover {
   box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
@@ -319,6 +321,7 @@ section {
 }
 .project-card img {
   max-width: 300px;
+
   border-radius: 2rem;
   object-fit: cover;
 }
